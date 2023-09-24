@@ -63,6 +63,12 @@ overflow: hidden;
     text-align: center;
     line-height: 1.6;
 }
+.interest{
+    position: relative;
+    top:-20px;
+    left:80px;
+    line-height: 1.6;
+}
 .expert span{
     text-align: left;
     position: relative;
@@ -188,6 +194,17 @@ transform: scale(1.2);
 }
 .maininfonew4{
     position: relative;
+    height: 480px;
+    width:150px;
+    background-color: rgba(240, 248, 255, 0.696);
+    border: 1px solid black;
+    border-radius: 10px;
+    top:-946px;
+    left: 1150px;
+    box-shadow: 0 0 10px white;
+}
+.maininfonew4Advs{
+    position: relative;
     height: 380px;
     width:150px;
     background-color: rgba(240, 248, 255, 0.696);
@@ -196,7 +213,6 @@ transform: scale(1.2);
     top:-896px;
     left: 1150px;
     box-shadow: 0 0 10px white;
-
 }
 .groupcontent{
     position: relative;
@@ -397,6 +413,21 @@ transform: scale(1.2);
     border: 1px solid black;
 }
 .nextp p{
+    position: relative;
+    top:-15px;
+}
+.prevp{
+    background-color: rgb(174, 174, 174);
+    position: relative;
+    top:-25px;
+    left:270px;
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.prevp p{
     position: relative;
     top:-15px;
 }
