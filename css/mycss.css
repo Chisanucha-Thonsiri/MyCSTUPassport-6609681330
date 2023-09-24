@@ -79,15 +79,15 @@ overflow: hidden;
     left: 170px;
 }
 .bt1{
-position: relative;
-background-color: rgb(255, 235, 55);
-width:120px;
-top:-112px;
-left:500px;
-border-radius: 10px;
-border: none;
-padding: 5px;
-transform: scale(1.2);
+    position: relative;
+    background-color: rgb(255, 235, 55);
+    width:120px;
+    top:-112px;
+    left:500px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transform: scale(1.2);
 }
 .bt2{
 position: relative;
@@ -110,6 +110,9 @@ border-radius: 10px;
 border: none;
 padding: 5px;
 transform: scale(1.2);
+}
+.selectedbt{
+    background-color: rgb(255, 235, 55);
 }
 .maininfonew1{
     position: relative;
