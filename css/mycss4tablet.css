@@ -479,16 +479,18 @@
         background-color: rgb(255, 255, 255);
         border: 1px solid black;
         border-radius: 10px;
-        top:-1110px;
+        top:-1120px;
         left: 150px;
         box-shadow: 0 0 10px white;
         text-shadow: 2px 2px 2px rgb(118, 117, 117);
-        transform: scale(1.1);
-        display: none;
+        transform: scale(0.001);
+        transition: transform 0.5s,top 0.5s;
     
     }
     .infonew3zoomedvisible{
         display:block;
+        transform: scale(1.1);
+        z-index: 3;
         
     }
     .exit{
@@ -508,4 +510,18 @@
         position: relative;
         top:-13px;
     }
+    .blackscreen{
+        height: 750px;
+        width:1367px;
+        background-color: rgba(0, 0, 0, 0.568);
+        position: relative;
+        top: -1700px;
+        left: -50px;
+        z-index: -99;
+        display: none;
+     }
+     .blackscreenvisible{
+        z-index: 2;
+        display: block;
+     }
 }
