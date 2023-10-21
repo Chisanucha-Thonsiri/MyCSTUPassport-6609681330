@@ -1,8 +1,8 @@
 @media only screen and (min-width: 769px) and (max-width: 992px){
     body{
-        background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+        background-image: url(https://i.pinimg.com/originals/56/3f/96/563f96258fc90a83b8926aae5c706006.gif);
     background-repeat:no-repeat ;
-    background-size:1367px 1367px ;
+    background-size:992px 992px ;
     overflow:none;}
     *{
         font-family: Mali;
@@ -209,7 +209,7 @@
         border: 1px solid black;
         border-radius: 10px;
         top:-550px;
-        left: 55px;
+        left: 255px;
         box-shadow: 0 0 10px white;
     }
     .maininfonew4Advs{
@@ -481,16 +481,18 @@
         border-radius: 10px;
         top:-1120px;
         left: 150px;
-        box-shadow: 0 0 10px white;
+        box-shadow: 0px 0px 5px rgb(79, 0, 116),0px 0px 10px rgb(0, 238, 255),0px 0px 15px rgb(17, 0, 255),0px 0px 20px rgb(0, 255, 72),0px 0px 25px rgb(238, 255, 0),0px 0px 30px rgb(255, 174, 0),0px 0px 35px rgb(255, 0, 0);
         text-shadow: 2px 2px 2px rgb(118, 117, 117);
-        transform: scale(0.001);
+        transform: scale(0.00000001);
         transition: transform 0.5s,top 0.5s;
+        opacity: 0;
     
     }
     .infonew3zoomedvisible{
         display:block;
         transform: scale(1.1);
         z-index: 3;
+        opacity: 1;
         
     }
     .exit{
