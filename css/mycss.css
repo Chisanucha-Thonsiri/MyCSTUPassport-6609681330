@@ -3,8 +3,7 @@ body{
 background-repeat:no-repeat ;
 background-size:1367px 750px ;
 overflow: hidden;
-
-
+position: fixed;
 }
 *{
     font-family: Mali;
