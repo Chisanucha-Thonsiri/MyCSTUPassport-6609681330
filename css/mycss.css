@@ -3,7 +3,6 @@ body{
 background-repeat:no-repeat ;
 background-size:1367px 750px ;
 overflow: hidden;
-position: fixed;
 }
 *{
     font-family: Mali;
@@ -91,7 +90,9 @@ position: fixed;
     color: rgb(2, 0, 109);
 }
 .mainmenu{
-    background-color: rgb(170, 215, 255);
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+    background-repeat: no-repeat;
+    background-size:1759px 100px ;
     width: 1759px;
     height: 100px;
     position:relative;

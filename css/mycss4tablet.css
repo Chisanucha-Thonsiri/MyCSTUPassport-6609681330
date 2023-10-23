@@ -1,12 +1,12 @@
-@media only screen and (min-width: 914px) and (max-width: 992px){
-    html,body{
-        overflow:hidden;
-    }
+@media only screen and (min-width: 821px) and (max-width: 992px){
+
     body{
         background-image: url(https://i.pinimg.com/originals/56/3f/96/563f96258fc90a83b8926aae5c706006.gif);
     background-repeat:no-repeat ;
     background-size:992px 992px ;
-position: relative;}
+position: relative;
+overflow:hidden;
+}
     *{
         font-family: Mali;
     }
